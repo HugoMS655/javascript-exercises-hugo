@@ -6,11 +6,11 @@ const subtract = function (a, b) {
   return a - b;
 };
 
-const sum = function (...numbers) {
+const sum = function (numbers) {
   return numbers.reduce((sum, current) => sum + current, 0);
 };
 
-const multiply = function (...numbers) {
+const multiply = function (numbers) {
   return numbers.reduce((product, current) => product * current);
 };
 
